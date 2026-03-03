@@ -114,7 +114,7 @@ function App() {
 
     setFilteredData(filtered);
 
-    // Generate dropdown options dynamically (DEPENDENT FILTERING ⭐)
+    // Dropdown options
     setAvailableTypes([
       ...new Set(
         filtered.flatMap(p =>

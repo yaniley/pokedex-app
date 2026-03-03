@@ -23,7 +23,7 @@ export default function FilterControls({
       alignItems:"center"
     }}>
 
-      {/* Type Filter (Alphabetical) */}
+      {/* Type Filter */}
       <select
         value={selectedType}
         onChange={(e)=>setSelectedType(e.target.value)}

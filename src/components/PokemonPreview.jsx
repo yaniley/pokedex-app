@@ -4,7 +4,6 @@ export default function PokemonPreview({ pokemon, onClose }) {
 
   const type = pokemon.types[0].type.name;
 
-  // PROFESSIONAL POKEMON TYPE COLORS (Balanced + Readable)
 const typeColors = {
   fire: "#f26925",      
   water: "#4592C4",
